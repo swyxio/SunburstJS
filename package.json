@@ -17,5 +17,25 @@
   },
   "devDependencies": {
     "concurrently": "^3.5.1"
-  }
+  },
+  "description": "This is an attempt at a new template for newbies (especially coming from FreeCodeCamp) to fullstack javascript development.",
+  "main": "npm run dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw-yx/SunburstJS.git"
+  },
+  "keywords": [
+    "react",
+    "graphql",
+    "node",
+    "express",
+    "mongodb",
+    "apollo"
+  ],
+  "author": "“Channing <“magic.mike@gmail.com”> (“http://www.magicmikemovie.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sw-yx/SunburstJS/issues"
+  },
+  "homepage": "https://github.com/sw-yx/SunburstJS#readme"
 }
