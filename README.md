@@ -1,4 +1,4 @@
-This is an attempt at a new template for newbies (especially coming from FreeCodeCamp) to fullstack javascript development.
+This is an attempt at a new template for newbies (especially coming from FreeCodeCamp, and looking for an update to [ClementineJS](http://www.clementinejs.com/tutorials/tutorial-beginner.html)) to fullstack javascript development.
 
 It uses React on the frontend, Node/Express on the backend, and Apollo/GraphQL to connect the two.
 
