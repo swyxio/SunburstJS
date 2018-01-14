@@ -1,6 +1,12 @@
 This is an attempt at a new template for newbies (especially coming from FreeCodeCamp, and looking for an update to [ClementineJS](http://www.clementinejs.com/tutorials/tutorial-beginner.html)) to fullstack javascript development.
 
-It uses React on the frontend, Node/Express on the backend, and Apollo/GraphQL to connect the two.
+It uses React on the frontend, Node/Express/Mongo on the backend.
+
+Forum discussion here: <https://forum.freecodecamp.org/t/no-zero-days-my-roadmap-from-javascript-noob-to-full-stack-developer-in-12-months/164514>
+
+The intent is to start building is over a Twitch Stream to show how this is done in real time.
+
+We will use Apollo/GraphQL in future extensions.
 
 Useful resources when building this:
 
