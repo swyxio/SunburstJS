@@ -16,7 +16,10 @@
     "//": "this command builds your client so you don't use CRA in production",
     "build": "cd client && yarn build",
     "//": "this command lets you test prod on your own laptop before deploying",
-    "start": "npm run build && node server"
+    "prod": "npm run build && node server",
+    "//":
+      "this command just runs your server. this is just meant for heroku to run, you should use either npm run prod or npm run dev",
+    "start": "node server"
   },
   "devDependencies": {
     "concurrently": "^3.5.1"
