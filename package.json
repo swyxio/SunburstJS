@@ -5,35 +5,34 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "mongodb": "^3.0.1"
+    "mongodb": "^3.0.1",
+    "mongoose": "^4.13.9"
   },
   "scripts": {
     "dev:client": "cd client && yarn start",
     "dev:server": "nodemon server",
-    "//": "run both commands",
-    "dev":
-      "concurrently --kill-others-on-fail \"npm run dev:server\" \"npm run dev:client\"",
-    "//": "this command builds your client so you don't use CRA in production",
+    "//": "this command just runs your server. this is just meant for heroku to run, you should use either npm run prod or npm run dev",
+    "dev": "concurrently --kill-others-on-fail \"npm run dev:server\" \"npm run dev:client\"",
     "build": "cd client && yarn build",
-    "//": "this command lets you test prod on your own laptop before deploying",
     "prod": "npm run build && node server",
-    "//":
-      "this command just runs your server. this is just meant for heroku to run, you should use either npm run prod or npm run dev",
     "start": "node server"
   },
   "devDependencies": {
     "concurrently": "^3.5.1"
   },
-  "description":
-    "This is an attempt at a new template for newbies (especially coming from FreeCodeCamp) to fullstack javascript development.",
+  "description": "This is an attempt at a new template for newbies (especially coming from FreeCodeCamp) to fullstack javascript development.",
   "main": "npm run dev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sw-yx/SunburstJS.git"
   },
-  "keywords": ["react", "node", "express", "mongodb"],
-  "author":
-    "“Channing <“magic.mike@gmail.com”> (“http://www.magicmikemovie.com)",
+  "keywords": [
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "“Channing <“magic.mike@gmail.com”> (“http://www.magicmikemovie.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sw-yx/SunburstJS/issues"
