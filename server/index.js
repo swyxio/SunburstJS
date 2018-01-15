@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get("/api/hello", (req, res) => {
-  res.send({ express: "Hello From Expres2s" });
+  res.send({ express: "Hello From Express" });
 });
 
 app.post("/api/click", async (req, res) => {
