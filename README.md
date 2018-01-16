@@ -2,7 +2,7 @@
 
 ![sunburst](sunburst.png)
 
-Sunburst is an attempt at a new template for newbies (especially coming from FreeCodeCamp, and looking for an update to [ClementineJS](http://www.clementinejs.com/tutorials/tutorial-beginner.html)) to fullstack javascript development.
+Sunburst is fullstack JS tutorial for newbies (especially coming from FreeCodeCamp, and looking for an update to [ClementineJS](http://www.clementinejs.com/tutorials/tutorial-beginner.html)) looking to put together frontend and backend knowledge for the first time.
 
 It uses React on the frontend, Node/Express/Mongo on the backend. Unlike ClementineJS I would use “modern” choices like create-react-app, and the mongoose ORM, and also show how to deploy to Heroku. I would also show how to integrate PassportJS for authentication.
 
@@ -11,6 +11,10 @@ Forum discussion here: <https://forum.freecodecamp.org/t/seeking-a-mentee/168796
 The intent is to do this with a partner over a Youtube Live Stream to show how this is done in real time.
 
 ---
+
+# Video recordings of Lessons
+
+1 - <https://www.youtube.com/watch?v=NS55ww28KwI>
 
 # Lesson Plan
 
